@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   end
 
   resources :charges
+
+  root to: "charges#new"
 end
